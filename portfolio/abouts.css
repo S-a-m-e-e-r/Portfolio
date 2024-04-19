@@ -1,0 +1,27 @@
+.main{
+    background-color: white;
+}
+.about{
+    color:black;
+        
+}
+
+.about h2{
+    color: rgb(7, 7, 82);
+    margin:40px 10px;
+    text-decoration: underline;
+    text-decoration-color: rgb(7, 173, 250);
+    text-decoration-thickness: 4px;
+    font-weight: bold;
+}
+
+.about p{
+    margin:40px 10px;
+    font-size:20px;
+    line-height:33px;
+}
+.about li{
+    list-style:none;
+    padding: 10px;
+}
+ 

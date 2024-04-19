@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:rgb(170, 168, 168);
+    width: 434px;
+    font-family: 'Poppins', sans-serif;
+    height: 100%%;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+
+.sidebar nav{
+    padding: 26px;
+}
+.sidebar nav li{
+    list-style-type: none;
+    font-size: large;
+    display: inline-block;
+    margin: 0 50px ;
+    padding: 40px 0;
+    position: relative;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(10, 0, 0);
+}
+.sidebar nav li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position:absolute;
+    left: 0;
+    bottom: 20px;
+    transition: 0.5s;
+}
+.sidebar nav li:hover::after{
+    width:100%;
+}
+.main{
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+   /* background-color: rgb(0, 217, 255);*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    color: black;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.devPic img{
+    height: 58vh;
+}
+
+.hello{
+    font-size: 40px;
+}
+
+.name{  
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.devInfo h3{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.devInfo h3:nth-of-type(2){
+    margin-bottom: 30px;
+}
+.devInfo h3 span{
+    color: #0ef;
+}
+.devInfo h3 u{
+    color: #0ef;
+}
+.moreabout{
+    margin-top: 23px;
+    font-size: 18px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    margin: 0 3px;
+    font-size: 21px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+
+/*-------contact-----*/
